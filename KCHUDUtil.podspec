@@ -28,7 +28,7 @@ s.homepage = "https://github.com/kumarc-123/KCHUDUtil"
 
 
 # 6 - Replace this URL with your own Git URL from "Quick Setup"
-s.source = { :git => "[Your RWPickFlavor Git URL Goes Here]", :tag => "#{s.version}"}
+s.source = { :git => "https://github.com/kumarc-123/KCHUDUtil.git", :tag => "#{s.version}"}
 
 # For example,
 # s.source = { :git => "https://github.com/kumarc-123/KCHUDUtil.git", :tag => "#{s.version}"}
@@ -40,7 +40,7 @@ s.framework = "UIKit"
 #s.dependency 'MBProgressHUD', '~> 0.9.0'
 
 # 8
-#s.source_files = "KCHUDUtil/**/*.{h,m}"
+s.source_files = "KCHUDUtil/**/*.{h,m}"
 
 # 9
 #s.resources = "RWPickFlavor/**/*.{png,jpeg,jpg,storyboard,xib}"
