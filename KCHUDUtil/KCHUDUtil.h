@@ -18,3 +18,4 @@ FOUNDATION_EXPORT const unsigned char KCHUDUtilVersionString[];
 
 
 #import "KCHUD.h"
+#import "KCSpinner.h"

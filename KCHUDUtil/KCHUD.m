@@ -35,10 +35,6 @@
     return self;
 }
 
-- (NSMutableArray*)  CreateNonRetainingMutableArray {
-    return (NSMutableArray *)CFBridgingRelease(CFArrayCreateMutable(nil, 0, nil));
-}
-
 - (void) showHUDInView : (UIView *) view
 {
     [self hideInView:view];
