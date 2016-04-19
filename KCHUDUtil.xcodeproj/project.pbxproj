@@ -10,6 +10,10 @@
 		AD8FAE9D1CC634BA0029A33E /* KCHUDUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = AD8FAE9C1CC634BA0029A33E /* KCHUDUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AD8FAEA41CC634BA0029A33E /* KCHUDUtil.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD8FAE991CC634BA0029A33E /* KCHUDUtil.framework */; };
 		AD8FAEA91CC634BA0029A33E /* KCHUDUtilTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AD8FAEA81CC634BA0029A33E /* KCHUDUtilTests.m */; };
+		AD8FAEB91CC636E30029A33E /* KCSpinner.h in Headers */ = {isa = PBXBuildFile; fileRef = AD8FAEB71CC636E30029A33E /* KCSpinner.h */; };
+		AD8FAEBA1CC636E30029A33E /* KCSpinner.m in Sources */ = {isa = PBXBuildFile; fileRef = AD8FAEB81CC636E30029A33E /* KCSpinner.m */; };
+		AD8FAEBD1CC638B80029A33E /* KCHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = AD8FAEBB1CC638B80029A33E /* KCHUD.h */; };
+		AD8FAEBE1CC638B80029A33E /* KCHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = AD8FAEBC1CC638B80029A33E /* KCHUD.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +33,10 @@
 		AD8FAEA31CC634BA0029A33E /* KCHUDUtilTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KCHUDUtilTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD8FAEA81CC634BA0029A33E /* KCHUDUtilTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KCHUDUtilTests.m; sourceTree = "<group>"; };
 		AD8FAEAA1CC634BA0029A33E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD8FAEB71CC636E30029A33E /* KCSpinner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KCSpinner.h; sourceTree = "<group>"; };
+		AD8FAEB81CC636E30029A33E /* KCSpinner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KCSpinner.m; sourceTree = "<group>"; };
+		AD8FAEBB1CC638B80029A33E /* KCHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KCHUD.h; sourceTree = "<group>"; };
+		AD8FAEBC1CC638B80029A33E /* KCHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KCHUD.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +80,10 @@
 			isa = PBXGroup;
 			children = (
 				AD8FAE9C1CC634BA0029A33E /* KCHUDUtil.h */,
+				AD8FAEB71CC636E30029A33E /* KCSpinner.h */,
+				AD8FAEB81CC636E30029A33E /* KCSpinner.m */,
+				AD8FAEBB1CC638B80029A33E /* KCHUD.h */,
+				AD8FAEBC1CC638B80029A33E /* KCHUD.m */,
 				AD8FAE9E1CC634BA0029A33E /* Info.plist */,
 			);
 			path = KCHUDUtil;
@@ -93,6 +105,8 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AD8FAEBD1CC638B80029A33E /* KCHUD.h in Headers */,
+				AD8FAEB91CC636E30029A33E /* KCSpinner.h in Headers */,
 				AD8FAE9D1CC634BA0029A33E /* KCHUDUtil.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -193,6 +207,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AD8FAEBA1CC636E30029A33E /* KCSpinner.m in Sources */,
+				AD8FAEBE1CC638B80029A33E /* KCHUD.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -252,7 +268,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -293,7 +309,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
